@@ -2,15 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Kamień, papier, nożyce</title>
+	<title>Kamień, papier czy nożyce</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<div class="container">
-		<div id="buttons">
-			<button id="button_1"> 1: Kamień </button>
-			<button id="button_2"> 2: Papier </button>
-			<button id="button_3"> 3: Nożyce</button>
+		<div class="header">
+			<h1>Kamień, papier, czy nożyce</h1>
+			<h3>Moja pierwsza gra w JS</h3>
+		</div>
+		<div class="rules">
+			<p>Wybierz jedną z opcji i zmierz się z największym przeciwnikiem - KOMPUTEREM!</p>
+			<p>Dla relaksu odpal sobie <a href="https://youtu.be/jXZAbnn1kTU"> ten link.</a></p>
+		</div>
+		<div class="row" id="buttons">
+			<div class = col>
+				<button id="play-rock"><i class="fas fa-gem"></i></button>
+				<button id="play-paper"><i class="fas fa-sticky-note"></i></button>
+				<button id="play-scissors"><i class="fas fa-cut"></i></button>
+			</div>
 		</div>
 		<div id="messages"></div>
 	</div>
