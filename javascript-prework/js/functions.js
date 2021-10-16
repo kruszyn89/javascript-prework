@@ -8,6 +8,6 @@ function clearMessages(){
 	document.getElementById('messages').innerHTML = '';
 }
 
-function calculateResult(msg){
+function showResult(msg){
 	document.getElementById('result').innerHTML = msg;
 }

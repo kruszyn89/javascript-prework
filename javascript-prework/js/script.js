@@ -1,4 +1,4 @@
-const playGame = function(playerInput){
+{const playGame = function(playerInput){
     clearMessages();
     
     const getMoveName = function(randomNumber){
@@ -56,7 +56,7 @@ const playGame = function(playerInput){
         // let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
         // console.log('Gracz wpisał: ' + playerInput);
         
-        let argPlayerMove = getMoveName(playerInput);
+        const argPlayerMove = getMoveName(playerInput);
         printMessage('Twój ruch to: ' + argPlayerMove);
 
         printMessage(displayResult(argComputerMove, argPlayerMove)); 
@@ -85,8 +85,7 @@ scissorsElement.addEventListener('click', function(){
 
 
 
-
-
+}
 
 
 
